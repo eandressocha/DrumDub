@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57A37ED1197C26B30047C56C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A37ED0197C26B30047C56C /* Foundation.framework */; };
+		57A37ED3197C26B30047C56C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A37ED2197C26B30047C56C /* CoreGraphics.framework */; };
+		57A37ED5197C26B30047C56C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A37ED4197C26B30047C56C /* UIKit.framework */; };
+		57A37EDB197C26B30047C56C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57A37ED9197C26B30047C56C /* InfoPlist.strings */; };
+		57A37EDD197C26B30047C56C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A37EDC197C26B30047C56C /* main.m */; };
+		57A37EE1197C26B30047C56C /* DDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A37EE0197C26B30047C56C /* DDAppDelegate.m */; };
+		57A37EE4197C26B30047C56C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A37EE2197C26B30047C56C /* Main.storyboard */; };
+		57A37EE7197C26B30047C56C /* DDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A37EE6197C26B30047C56C /* DDViewController.m */; };
+		57A37EE9197C26B30047C56C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57A37EE8197C26B30047C56C /* Images.xcassets */; };
+		57A37EF0197C26B30047C56C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A37EEF197C26B30047C56C /* XCTest.framework */; };
+		57A37EF1197C26B30047C56C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A37ED0197C26B30047C56C /* Foundation.framework */; };
+		57A37EF2197C26B30047C56C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A37ED4197C26B30047C56C /* UIKit.framework */; };
+		57A37EFA197C26B30047C56C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57A37EF8197C26B30047C56C /* InfoPlist.strings */; };
+		57A37EFC197C26B30047C56C /* DrumDubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A37EFB197C26B30047C56C /* DrumDubTests.m */; };
+		57A37F0A197C7D4A0047C56C /* bass.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 57A37F06197C7D4A0047C56C /* bass.m4a */; };
+		57A37F0B197C7D4A0047C56C /* maraca.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 57A37F07197C7D4A0047C56C /* maraca.m4a */; };
+		57A37F0C197C7D4A0047C56C /* snare.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 57A37F08197C7D4A0047C56C /* snare.m4a */; };
+		57A37F0D197C7D4A0047C56C /* tambourine.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 57A37F09197C7D4A0047C56C /* tambourine.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57A37EF3197C26B30047C56C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57A37EC5197C26B30047C56C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57A37ECC197C26B30047C56C;
+			remoteInfo = DrumDub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57A37ECD197C26B30047C56C /* DrumDub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrumDub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A37ED0197C26B30047C56C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		57A37ED2197C26B30047C56C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57A37ED4197C26B30047C56C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		57A37ED8197C26B30047C56C /* DrumDub-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrumDub-Info.plist"; sourceTree = "<group>"; };
+		57A37EDA197C26B30047C56C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57A37EDC197C26B30047C56C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57A37EDE197C26B30047C56C /* DrumDub-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrumDub-Prefix.pch"; sourceTree = "<group>"; };
+		57A37EDF197C26B30047C56C /* DDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDAppDelegate.h; sourceTree = "<group>"; };
+		57A37EE0197C26B30047C56C /* DDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDAppDelegate.m; sourceTree = "<group>"; };
+		57A37EE3197C26B30047C56C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57A37EE5197C26B30047C56C /* DDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDViewController.h; sourceTree = "<group>"; };
+		57A37EE6197C26B30047C56C /* DDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDViewController.m; sourceTree = "<group>"; };
+		57A37EE8197C26B30047C56C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		57A37EEE197C26B30047C56C /* DrumDubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrumDubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A37EEF197C26B30047C56C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		57A37EF7197C26B30047C56C /* DrumDubTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrumDubTests-Info.plist"; sourceTree = "<group>"; };
+		57A37EF9197C26B30047C56C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57A37EFB197C26B30047C56C /* DrumDubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrumDubTests.m; sourceTree = "<group>"; };
+		57A37F06197C7D4A0047C56C /* bass.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bass.m4a; sourceTree = "<group>"; };
+		57A37F07197C7D4A0047C56C /* maraca.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = maraca.m4a; sourceTree = "<group>"; };
+		57A37F08197C7D4A0047C56C /* snare.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = snare.m4a; sourceTree = "<group>"; };
+		57A37F09197C7D4A0047C56C /* tambourine.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = tambourine.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57A37ECA197C26B30047C56C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A37ED3197C26B30047C56C /* CoreGraphics.framework in Frameworks */,
+				57A37ED5197C26B30047C56C /* UIKit.framework in Frameworks */,
+				57A37ED1197C26B30047C56C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A37EEB197C26B30047C56C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A37EF0197C26B30047C56C /* XCTest.framework in Frameworks */,
+				57A37EF2197C26B30047C56C /* UIKit.framework in Frameworks */,
+				57A37EF1197C26B30047C56C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57A37EC4197C26B30047C56C = {
+			isa = PBXGroup;
+			children = (
+				57A37ED6197C26B30047C56C /* DrumDub */,
+				57A37EF5197C26B30047C56C /* DrumDubTests */,
+				57A37ECF197C26B30047C56C /* Frameworks */,
+				57A37ECE197C26B30047C56C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57A37ECE197C26B30047C56C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57A37ECD197C26B30047C56C /* DrumDub.app */,
+				57A37EEE197C26B30047C56C /* DrumDubTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57A37ECF197C26B30047C56C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57A37ED0197C26B30047C56C /* Foundation.framework */,
+				57A37ED2197C26B30047C56C /* CoreGraphics.framework */,
+				57A37ED4197C26B30047C56C /* UIKit.framework */,
+				57A37EEF197C26B30047C56C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57A37ED6197C26B30047C56C /* DrumDub */ = {
+			isa = PBXGroup;
+			children = (
+				57A37F05197C7C9A0047C56C /* Sounds */,
+				57A37EDF197C26B30047C56C /* DDAppDelegate.h */,
+				57A37EE0197C26B30047C56C /* DDAppDelegate.m */,
+				57A37EE2197C26B30047C56C /* Main.storyboard */,
+				57A37EE5197C26B30047C56C /* DDViewController.h */,
+				57A37EE6197C26B30047C56C /* DDViewController.m */,
+				57A37EE8197C26B30047C56C /* Images.xcassets */,
+				57A37ED7197C26B30047C56C /* Supporting Files */,
+			);
+			path = DrumDub;
+			sourceTree = "<group>";
+		};
+		57A37ED7197C26B30047C56C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57A37ED8197C26B30047C56C /* DrumDub-Info.plist */,
+				57A37ED9197C26B30047C56C /* InfoPlist.strings */,
+				57A37EDC197C26B30047C56C /* main.m */,
+				57A37EDE197C26B30047C56C /* DrumDub-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57A37EF5197C26B30047C56C /* DrumDubTests */ = {
+			isa = PBXGroup;
+			children = (
+				57A37EFB197C26B30047C56C /* DrumDubTests.m */,
+				57A37EF6197C26B30047C56C /* Supporting Files */,
+			);
+			path = DrumDubTests;
+			sourceTree = "<group>";
+		};
+		57A37EF6197C26B30047C56C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57A37EF7197C26B30047C56C /* DrumDubTests-Info.plist */,
+				57A37EF8197C26B30047C56C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57A37F05197C7C9A0047C56C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				57A37F06197C7D4A0047C56C /* bass.m4a */,
+				57A37F07197C7D4A0047C56C /* maraca.m4a */,
+				57A37F08197C7D4A0047C56C /* snare.m4a */,
+				57A37F09197C7D4A0047C56C /* tambourine.m4a */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57A37ECC197C26B30047C56C /* DrumDub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57A37EFF197C26B30047C56C /* Build configuration list for PBXNativeTarget "DrumDub" */;
+			buildPhases = (
+				57A37EC9197C26B30047C56C /* Sources */,
+				57A37ECA197C26B30047C56C /* Frameworks */,
+				57A37ECB197C26B30047C56C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrumDub;
+			productName = DrumDub;
+			productReference = 57A37ECD197C26B30047C56C /* DrumDub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57A37EED197C26B30047C56C /* DrumDubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57A37F02197C26B30047C56C /* Build configuration list for PBXNativeTarget "DrumDubTests" */;
+			buildPhases = (
+				57A37EEA197C26B30047C56C /* Sources */,
+				57A37EEB197C26B30047C56C /* Frameworks */,
+				57A37EEC197C26B30047C56C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57A37EF4197C26B30047C56C /* PBXTargetDependency */,
+			);
+			name = DrumDubTests;
+			productName = DrumDubTests;
+			productReference = 57A37EEE197C26B30047C56C /* DrumDubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57A37EC5197C26B30047C56C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = AndreSocha;
+				TargetAttributes = {
+					57A37EED197C26B30047C56C = {
+						TestTargetID = 57A37ECC197C26B30047C56C;
+					};
+				};
+			};
+			buildConfigurationList = 57A37EC8197C26B30047C56C /* Build configuration list for PBXProject "DrumDub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57A37EC4197C26B30047C56C;
+			productRefGroup = 57A37ECE197C26B30047C56C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57A37ECC197C26B30047C56C /* DrumDub */,
+				57A37EED197C26B30047C56C /* DrumDubTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57A37ECB197C26B30047C56C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A37EE9197C26B30047C56C /* Images.xcassets in Resources */,
+				57A37F0B197C7D4A0047C56C /* maraca.m4a in Resources */,
+				57A37F0A197C7D4A0047C56C /* bass.m4a in Resources */,
+				57A37EDB197C26B30047C56C /* InfoPlist.strings in Resources */,
+				57A37F0C197C7D4A0047C56C /* snare.m4a in Resources */,
+				57A37F0D197C7D4A0047C56C /* tambourine.m4a in Resources */,
+				57A37EE4197C26B30047C56C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A37EEC197C26B30047C56C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A37EFA197C26B30047C56C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57A37EC9197C26B30047C56C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A37EE1197C26B30047C56C /* DDAppDelegate.m in Sources */,
+				57A37EE7197C26B30047C56C /* DDViewController.m in Sources */,
+				57A37EDD197C26B30047C56C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A37EEA197C26B30047C56C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A37EFC197C26B30047C56C /* DrumDubTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57A37EF4197C26B30047C56C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57A37ECC197C26B30047C56C /* DrumDub */;
+			targetProxy = 57A37EF3197C26B30047C56C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57A37ED9197C26B30047C56C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57A37EDA197C26B30047C56C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57A37EE2197C26B30047C56C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57A37EE3197C26B30047C56C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57A37EF8197C26B30047C56C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57A37EF9197C26B30047C56C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57A37EFD197C26B30047C56C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57A37EFE197C26B30047C56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57A37F00197C26B30047C56C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrumDub/DrumDub-Prefix.pch";
+				INFOPLIST_FILE = "DrumDub/DrumDub-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57A37F01197C26B30047C56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrumDub/DrumDub-Prefix.pch";
+				INFOPLIST_FILE = "DrumDub/DrumDub-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		57A37F03197C26B30047C56C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DrumDub.app/DrumDub";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrumDub/DrumDub-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DrumDubTests/DrumDubTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		57A37F04197C26B30047C56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DrumDub.app/DrumDub";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrumDub/DrumDub-Prefix.pch";
+				INFOPLIST_FILE = "DrumDubTests/DrumDubTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57A37EC8197C26B30047C56C /* Build configuration list for PBXProject "DrumDub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A37EFD197C26B30047C56C /* Debug */,
+				57A37EFE197C26B30047C56C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57A37EFF197C26B30047C56C /* Build configuration list for PBXNativeTarget "DrumDub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A37F00197C26B30047C56C /* Debug */,
+				57A37F01197C26B30047C56C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57A37F02197C26B30047C56C /* Build configuration list for PBXNativeTarget "DrumDubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A37F03197C26B30047C56C /* Debug */,
+				57A37F04197C26B30047C56C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57A37EC5197C26B30047C56C /* Project object */;
+}
